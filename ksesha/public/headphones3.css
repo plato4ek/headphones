@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	color: 	#000000;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+body {
+	margin:0;
+	background: #FFFFFF; 
+	font-family: Arial;
+	font-size:  1.2rem;
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+}
+.enter {
+    margin-left: 82%;
+	margin-right: auto;
+	width: 100;
+}	
+
+.h {
+	margin-left: auto;
+margin-right: auto;	
+align: center;
+}
+.registration-cssave{
+  padding:100px 550px;
+}
+
+.registration-cssave form {
+  max-width:800px;
+  padding:50px 70px;
+  border-radius:10px;
+  box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+  background-color:#fff;
+}
+
+.registration-cssave form h3 {
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.registration-cssave .item {
+  border-radius:10px;
+  margin-bottom:25px;
+  padding:10px 20px;
+}
+
+.registration-cssave .create-account {
+  border-radius:30px;
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#000000;
+  border:none;
+  color:white;
+  margin-top:20px;
+}
+
+@media (max-width: 576px) {
+  .registration-cssave form {
+    padding:50px 20px;
+  }
+}
+footer {
+	background: #222;
+	width: 100%;
+	min-width: 430px;
+	color: #eee;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.pic {
+	width: 20%;
+	height: 20%;
+}
+.textbelow {
+    text-align: right;
+	width: 100;
+}
+.displayeed {
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	height: 10%;
+	width: 80px;
+}
+	
